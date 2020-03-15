@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/*FONTES-uma diteto do google e outra do meu diretorio*/
+/*@import url(https://fonts.googleapis.com/css?family=Playball);/*Copiei este do site https://www.google.com/fonts#QuickUsePlace:quickUse*/
+@font-face{/*Usando uma fonte de meu diretorio*/
+    font-family: 'Ubuntu';/*nome para minha fonte*/
+    src: url("../_fonts/Ubuntu/Ubuntu-Regular.ttf");/*caminho em meu diretorio*/
+}
+@font-face{
+    font-family: 'Ubuntu_Mono';
+    src: url("../_fonts/Ubuntu_Mono/UbuntuMono-Regular.ttf");
+}
+@font-face{
+    font-family: 'Ubuntu_Condensed';
+    src: url("../_fonts/Ubuntu_Condensed/UbuntuCondensed-Regular.ttf");
+}
+    body{
+      background-color: rgb(102,128,128);
+      font-family:  'Ubuntu_Condensed', sans-serif;
+      font-size: 12pt;
+    }
+    div#idContainer{
+      max-width:1200px;/* Largura máxima *//*Monitores antigos 960*/
+      margin:0 auto; /* Alinha ao centro */
+      background-color:rgb(220,220,220);
+      border: 2px solid rgb(192,192,192);
+      box-shadow: 4px 4px 4px rgba(255,255,255,.5);
+    }
+    header#idCabecalho{
+      width: auto;
+      height: 50px;
+      background-color: rgb(0,0,0);
+      margin: 0px;
+    }
+    img.clsCabec{
+      width: auto;
+      height: 30px;
+      margin-top: 10px;
+      margin-left: 5px;
+      float: left;
+    }
+    img.clsLogo{
+      width: auto;
+      height: 48px;
+      margin-top: 1px;
+      float: left;
+    }
+    span.clsCabec{
+      color:  rgb(255, 255, 255);
+      font-family:  'Ubuntu_Condensed', sans-serif;
+      font-weight: 100; /*NEGRITO MAXIMO*/
+      font-size: 14pt;
+      margin-top: 12px;
+      margin-left: 5px;
+      float: left;
+    }
+
+    footer#rodape{
+        border-top: 1px solid #606060;/*linha que separa o rodape*/
+    }
+    footer#rodape p{
+        text-align: center;/*alinha o texto ao centro*/
+    }

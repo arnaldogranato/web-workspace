@@ -1,0 +1,52 @@
+URL: http://appsfts.flytour.com.br/schema/appsWSserver5.php
+
+
+XML Request
+
+<?xml version="1.0"?>
+
+-<soapenv:Envelope xmlns:urn="urn:aqui_nomeWSserverX"
+    xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+    <soapenv:Header/>
+
+
+-    <soapenv:Body>
+
+
+-        <urn:tkt soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+
+
+-            <paramTkt xsi:type="urn:tkt">
+
+                <diretorio xsi:type="xsd:string">aqui_123</diretorio>
+
+
+-                <usuario xsi:type="urn:usuario">
+
+                    <email xsi:type="xsd:string">aqui_usuario@xpto.com.br</email>
+
+                    <senha xsi:type="xsd:string">aqui_senha.xpto</senha>
+
+                </usuario>
+
+
+                <xml xsi:type="xsd:string">
+
+	        <![CDATA[<xml/xml>]]>
+		
+		</xml>
+
+            </paramTkt>
+
+        </urn:tkt>
+
+    </soapenv:Body>
+
+</soapenv:Envelope>
+
+XML Response
+
+"O servidor remoto retornou um erro: (500) Erro Interno do Servidor."

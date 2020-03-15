@@ -1,0 +1,65 @@
+@charset "UTF-8";
+}
+    body{
+      background-color: rgb(102,128,128);
+    }
+    div#idContainer{
+      max-width:1200px;/* Largura máxima *//*Monitores antigos 960*/
+        margin:0 auto; /* Alinha ao centro */
+         background-color:rgb(255,255,255);
+         border: 2px solid rgb(255,255,255);
+           box-shadow: 4px 4px 4px rgba(255,255,255,.5);
+    }
+    header#idCabecalho{
+      width: auto;
+      height: 120px;
+      background-color: rgb(0,139,139);
+    }
+    figure.clsLogoCabec{
+      margin: auto;
+    }
+    figure.clsLogoCabec img{
+      width: auto;
+      height: 100px;
+      margin: 10px;
+    }
+    div#idDivLogin{
+      color: rgb(255, 255, 255);
+      margin-right: 10px;
+      float: right;
+      margin-top: 2px;
+    }
+    div#idDivMenu{
+      max-width:600px;/* Largura máxima */
+        margin:0 auto;/* Alinha ao centro */
+    }
+    nav#idMenuFlutuante{
+
+    }
+    nav#idMenuFlutuante ol{
+        list-style: none; /*Fica invisivel os marcadores*/
+        text-transform: uppercase; /*Transforma tudo em maiusculo*/
+    }
+    nav#idMenuFlutuante li{
+        /*Formando BOTOES*/
+        display: inline-block; /*Transforma a Lista em LINHA*/
+        background: rgb(131,175,169); /*Coloca um FUNDO na formatacao*/
+        padding: 12px; /*Determina o TAMANHO do FUNDO*/
+        margin-left: 24px; /*Determina o expaco de margem entre os itens*/
+        margin-right: 24px;
+        color: white;
+        font-weight: 900;
+        transition: background 1s;/*tempo de transicao do background*/
+    }
+    nav#idMenuFlutuante h1{
+        display: none; /*Fica invizivel o nome da lista*/
+    }
+    nav#idMenuFlutuante li:hover{ /*ao passar o maouse por sima*/
+        background: rgb(0, 130, 132);/*muda a cor do fundo*/
+    }
+    footer#rodape{
+        border-top: 1px solid #606060;/*linha que separa o rodape*/
+    }
+    footer#rodape p{
+        text-align: center;/*alinha o texto ao centro*/
+    }

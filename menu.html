@@ -1,0 +1,98 @@
+<!--
+Projeto para estudo Arnaldo
+-->
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>[Menu PDES]</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="_css/estilo_modulos.css">
+        <style>
+            * {margin: 0; padding: 0;}
+            div#menu{
+              width: 960.2px;
+              height: 500px;
+              margin: auto;
+            }
+            ul#itens-menu{
+                width: 960px;
+                margin: auto;
+                list-style: none;
+            }
+            ul#itens-menu li{
+                width: 146px;
+                height: 146px;
+                border: 2.8px solid black;
+                float: left;
+                margin: 5px;
+               /* -webkit-transform: all .4s ease-in;*//*este efei eh para demoara 0.4 sagundos a traformacao mas nao funciona a tranform]*/
+            }
+            ul#itens-menu li span{
+              position: relative;
+              top: 30%;
+            }
+            h6{
+              color: #ffffff;
+              text-shadow: 1px 1px 1px #000000;
+              background-color: rgba(0,0,0,.5);
+              font-size: 14pt;
+              padding: 2px;
+              text-align: center;
+            }
+            li#itemA1{
+                  background: url("_imagens/parceiros-220-220-220.jpg") no-repeat;
+                  background-position: 50% 50%; /*centralizando a imagem dento da cixinha pois ela est[a meior do que a caixa]*/
+                  background-size: 145px 145px; /*redimencionando o tamanho da imagem pois ela tem o tamanho muito maior*/
+            }
+            li#itemA3{
+                  background: url("_imagens/usuarios-220-220-220.jpg") no-repeat;
+                  background-position: 50% 50%; /*centralizando a imagem dento da cixinha pois ela est[a meior do que a caixa]*/
+                  background-size: 145px 145px; /*redimencionando o tamanho da imagem pois ela tem o tamanho muito maior*/
+            }
+            ul#itens-menu li:hover {
+            /*efeito para imagem*/
+            }
+            ul#itens-menu li:hover span{
+              /*efeito para a legenda*/
+            }
+        </style>
+    </head>
+    <body>
+      <div id="idContainer"> <!--CONTEUDO TOTAL DA PAGINA-->
+        <header id="idCabecalho">
+            <img class="clsLogo" id="idLogo" src="_imagens/logoBlackSele-500x360.jpg">
+            <span class="clsCabec">MENU PRINCIPAL</span>
+        </header>
+        <section id="idSection">
+          <div id="menu">
+          <ul id='itens-menu'>
+                <a href="http://192.168.1.74/cadastro_parceiros.html" target="_blank"><li id='itemA1'><span><h6>Cadastro de Parceiros</h6></span></li></a>
+              <li id='itemB1'><span><h6>Lançamento de Serviços</h6></span></li>
+              <li id='itemC1'><span><h6>Preparação de Faturamento</h6></span></li>
+              <li id='itemD1'><span><h6>Contas a Pagar/Receber</h6></span></li>
+              <li id='itemE1'><span><h6>Caixa Bancos</h6></span></li>
+              <li id='itemF1'><span><h6>Manual do Sistema</h6></span></li>
+
+              <li id='itemA2'><span><h6>Relação de Parceiros</h6></span></li>
+              <li id='itemB2'><span><h6>Relatorio de Serviços</h6></span></li>
+              <li id='itemC2'><span><h6>Consulta das Faturas</h6></span></li>
+              <li id='itemD2'><span><h6>Relatorio de Contas</h6></span></li>
+              <li id='itemE2'><span><h6>Relatório do Caixa/Bancos</span></li>
+              <li id='itemF2'><span><h6>Atendimento ao Usuário</h6></span></li>
+
+              <a href="http://192.168.1.74/usuarios.html" target="_blank"><li id='itemA3'><span><h6>Cadastro de Usuarios</h6></span></li></a>
+              <li id='itemB3'><span><h6>Desenvolvimento Futuro</h6></span></li>
+              <li id='itemC3'><span><h6>Desenvolvimento <br/>Futuro</h6></span></li>
+              <li id='itemD3'><span><h6>Desenvolvimento <br/>Futuro</h6></h6></span></li>
+              <li id='itemE3'><span><h6>Desenvolvimento <br/>Futuro</h6></span></li>
+              <li id='itemF3'><span><h6>Desenvolvimento <br/>Futuro</h6></span></li>
+          </ul>
+        </div>
+
+        </section>
+      <footer id="rodape">
+          <p>www.facebook.com/pdes | www.instagran.com/pdes | www.pdes.com.br</p>
+      </footer>
+    </div>
+  </body>
+</html>
